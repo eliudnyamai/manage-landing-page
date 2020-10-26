@@ -1,0 +1,134 @@
+body {
+  overflow-x: hidden;
+  max-width: 100%;
+  font-display: auto;
+  font-family: 'Be Vietnam', sans-serif;
+  
+}
+html {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+.client-img{
+    height: auto;
+    width: 150px;
+}
+
+nav .navbar-nav li a {
+  color: black !important;
+  font-weight: bold;
+}
+nav .navbar-nav li a:hover {
+  color: black !important;
+  font-weight: lighter;
+}
+body {
+  font-family: "Be Vietnam", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+.custom-btn {
+  background-color: hsl(12, 88%, 59%) !important ;
+}
+.custom-btn:hover {
+  background-color: hsl(12, 92%, 72%) !important;
+}
+.custom-btn-white {
+  background-color: white !important;
+  color: hsl(12, 88%, 59%) !important;
+}
+.custom-btn-white:hover {
+  background-color: hsl(12, 92%, 72%) !important;
+  color: white !important;
+}
+.custom-badge {
+  background-image: linear-gradient(
+    to right,
+    hsl(12, 88%, 59%),
+    hsl(12, 88%, 59%)
+  );
+  width: 70px;
+  font-size: 18px;
+}
+
+#background-img {
+  position: absolute;
+  top: -300px;
+  z-index: -1;
+  right: -150px;
+}
+#illustration-intro {
+  width: 350px;
+  height: auto;
+  position: relative;
+  left: 25%;
+}
+#deco-img2 {
+  position: absolute;
+  left: -450px;
+  z-index: -1;
+}
+#footer1 {
+  background-color: hsl(12, 88%, 59%);
+}
+#footer2 {
+  background-color: hsl(240, 12%, 13%);
+}
+#bottom {
+}
+#mobile-background-intro {
+  display: none;
+}
+#mobile-intro {
+  display: none;
+}
+.footer-link:hover {
+  color: hsl(12, 88%, 59%) !important;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 741px) {
+  .centered {
+    text-align: center;
+  }
+  .feature-list {
+    background-color: #fff0ec !important;
+  }
+  #mobile-background-intro {
+    display: block;
+  }
+  #mobile-intro {
+    display: block;
+  }
+  #mobile-background-img {
+    position: absolute;
+    top: -140px;
+    z-index: -1;
+    right: -50px;
+  }
+  #mobile-illustration-intro {
+  }
+  #background-img,
+  #illustration-intro {
+    display: none;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1023px) and (-webkit-min-device-pixel-ratio: 1) {
+  #background-img {
+    position: absolute;
+    top: -150px;
+    z-index: -1;
+    right: -120px;
+  }
+  #illustration-intro {
+    width: 300px;
+    height: auto;
+    position: relative;
+    left: 25%;
+  }
+  #deco-img2 {
+    position: absolute;
+    left: -250px;
+    z-index: -1;
+  }
+}
